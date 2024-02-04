@@ -1,0 +1,59 @@
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+   
+}
+
+.nav-items >ul > li{
+    padding: 10px;
+}
+
+.card{
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card > img{
+    width: 100%;
+    
+}
+
+.Resturent-list{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.Shimmer-card{
+    height: 200px;
+    width: 200px;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+.menu{
+    display: flex;
+} */
+
+
+
+/* Tailwind css*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In this file this is where we can tell that you are using tailwind and u r using classes from base
+or tailwind base library. tailwind also distributed in a differnt chunks these al chunks are how in upper*/
