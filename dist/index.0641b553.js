@@ -40789,7 +40789,7 @@ const ResturantMenu = ()=>{
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: Resturant ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex justify-center",
+            className: "flex",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: [
