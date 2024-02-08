@@ -41159,7 +41159,7 @@ const Cart = ()=>{
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex flex-wrap text-sm",
+                className: "flex flex-wrap text-sm justify-center",
                 children: cartItems.map((item)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _foodItemDefault.default), {
                         ...item
                     }, item.id, false, {
