@@ -79,7 +79,7 @@ const Body = () => {
         //search bar
         <>
         
-        <div className = "search-container p-5 bg-black my-4 text-white">
+        <div className = "p-5 bg-black my-4 text-white text-center">
             <input type="text" 
             className="search-input rounded-lg text-black cursor-text p-1 m-1"
              placeholder="Search"
@@ -88,7 +88,7 @@ const Body = () => {
                 onChange = {(e) => {setSearchInput(e.target.value)}}
               />
              
-           <button className="search-btn p-2 m-1 bg-white hover:bg-gray-500 text-black hover:text-white rounded-full"
+           <button className="p-2 m-1 bg-white hover:bg-gray-500 text-black hover:text-white rounded-full"
            onClick={() =>{
              // need to filter the data
              const data = filterData(searchInput, AllResturants); // search the input text into the resturants and give my filter data.

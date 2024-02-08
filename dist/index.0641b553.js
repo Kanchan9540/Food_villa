@@ -39363,7 +39363,7 @@ const Body = ()=>{
     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "search-container p-5 bg-black my-4 text-white",
+                className: "p-5 bg-black my-4 text-white text-center",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                         type: "text",
@@ -39380,7 +39380,7 @@ const Body = ()=>{
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "search-btn p-2 m-1 bg-white hover:bg-gray-500 text-black hover:text-white rounded-full",
+                        className: "p-2 m-1 bg-white hover:bg-gray-500 text-black hover:text-white rounded-full",
                         onClick: ()=>{
                             // need to filter the data
                             const data = (0, _helper.filterData)(searchInput, AllResturants); // search the input text into the resturants and give my filter data.
@@ -40179,7 +40179,7 @@ const ResturentCard = ({ name, cuisines, cloudinaryImageId, sla })=>{
     const itemToSlice = cuisines.slice(0, 4);
     const { user } = (0, _react.useContext)((0, _userContextDefault.default));
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "w-52 p-2 m-2 shadow-xl bg-black text-white h-96 rounded-lg transition-all duration-300 ease-out hover:transform hover:scale-105",
+        className: "w-56 p-2 m-2 shadow-xl bg-black text-white h-96 rounded-lg transition-all duration-300 ease-out hover:transform hover:scale-105",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 src: (0, _constants.img_cdn_url) + cloudinaryImageId
@@ -40189,7 +40189,7 @@ const ResturentCard = ({ name, cuisines, cloudinaryImageId, sla })=>{
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                className: "font-bold text-2xl",
+                className: "font-bold text-md",
                 children: name
             }, void 0, false, {
                 fileName: "src/component/ResturentCard.js",
