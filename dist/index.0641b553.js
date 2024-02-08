@@ -40189,7 +40189,7 @@ const ResturentCard = ({ name, cuisines, cloudinaryImageId, sla })=>{
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                className: "font-bold text-md",
+                className: "font-bold text-xl",
                 children: name
             }, void 0, false, {
                 fileName: "src/component/ResturentCard.js",
@@ -41159,7 +41159,7 @@ const Cart = ()=>{
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex flex-wrap",
+                className: "flex flex-wrap text-sm",
                 children: cartItems.map((item)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _foodItemDefault.default), {
                         ...item
                     }, item.id, false, {

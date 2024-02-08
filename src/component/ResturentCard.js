@@ -22,7 +22,7 @@ const ResturentCard = ({name,
     return (
         <div className="w-56 p-2 m-2 shadow-xl bg-black text-white h-96 rounded-lg transition-all duration-300 ease-out hover:transform hover:scale-105">
             <img src={img_cdn_url + cloudinaryImageId}/>
-             <h2 className="font-bold text-md">{name}</h2>
+             <h2 className="font-bold text-xl">{name}</h2>
             <h3 className="text-wrap truncate">{itemToSlice.join(",")}</h3>
             <h4>{sla.lastMileTravelString}</h4>
             {/* <h5 className="font-bold">{user.name} {user.email}</h5> */}
