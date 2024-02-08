@@ -39400,7 +39400,7 @@ const Body = ()=>{
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex flex-wrap mx-4 items-center",
+                className: "flex flex-wrap mx-4 items-center justify-center",
                 children: //map using here that is a good way
                 // no key(not acceptable) <<<<<< idex key(use only if ypu don't have anythng) << unique key(best practice)
                 FilteredResturants.map((Resturant)=>{

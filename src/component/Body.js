@@ -98,7 +98,7 @@ const Body = () => {
            }}>Search</button>
         </div>
       
-        <div className="flex flex-wrap mx-4 items-center">
+        <div className="flex flex-wrap mx-4 items-center justify-center">
          {
            //map using here that is a good way
            // no key(not acceptable) <<<<<< idex key(use only if ypu don't have anythng) << unique key(best practice)
