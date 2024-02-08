@@ -40176,10 +40176,10 @@ const ResturentCard = ({ name, cuisines, cloudinaryImageId, sla })=>{
     // we also destructuring the resturant and we get some resturant object that is object
     //const{name, cuisines, cloudinaryImageId, lastMileTravelString} = resturant.info;
     //to ensure card not overflow due to more card
-    const itemToSlice = cuisines.slice(0, 5);
+    const itemToSlice = cuisines.slice(0, 4);
     const { user } = (0, _react.useContext)((0, _userContextDefault.default));
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "w-52 p-5 m-2 shadow-xl bg-black text-white h-96 rounded-lg transition-all duration-300 ease-out hover:transform hover:scale-105",
+        className: "w-52 p-2 m-2 shadow-xl bg-black text-white h-96 rounded-lg transition-all duration-300 ease-out hover:transform hover:scale-105",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 src: (0, _constants.img_cdn_url) + cloudinaryImageId
@@ -40789,7 +40789,7 @@ const ResturantMenu = ()=>{
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: Resturant ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex",
+            className: "flex justify-center",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: [

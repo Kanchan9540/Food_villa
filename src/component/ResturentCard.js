@@ -15,7 +15,7 @@ const ResturentCard = ({name,
     //const{name, cuisines, cloudinaryImageId, lastMileTravelString} = resturant.info;
 
     //to ensure card not overflow due to more card
-    const itemToSlice = cuisines.slice(0,5);
+    const itemToSlice = cuisines.slice(0,4);
 
     const {user} = useContext(userContext);
 

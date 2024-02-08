@@ -31,7 +31,7 @@ const ResturantMenu = () => {
   return (
     <>
       {Resturant ? (
-        <div className="flex">
+        <div className="flex justify-center">
           <div>
           <h1 className="font-bold m-2">Resturant id: {resId}</h1>
           <h2 className="font-bold m-2">Name - {Resturant?.data?.cards[0]?.card?.card?.info?.name}</h2>
