@@ -48,8 +48,8 @@ export const Header = () => {   // React component - its returns a react element
              {/*login or logout button*/}
              {/* <h1>{isOnline ? " yes": "no"}</h1> */}
             {/* <span className="p-10 font-bold text-white">{user.name}</span> */}
-            {isLoggedIn ? <button onClick={() => { setIsLoggedIn(false)}} className="bg-white text-black rounded-l-full ml-2 p-2 underline hover:bg-gray-500">Login</button> 
-            : <button className="bg-green-500 text-white rounded-l-full ml-2 p-2 underline" onClick={() => { setIsLoggedIn(true)}}>Logout</button>}
+            {isLoggedIn ? <button onClick={() => { setIsLoggedIn(false)}} className="bg-green-500 text-white rounded-l-full ml-2 p-2 underline hover:bg-gray-500">Login</button> 
+            : <button className="bg-white text-black rounded-l-full ml-2 p-2 underline" onClick={() => { setIsLoggedIn(true)}}>Logout</button>}
         </div>
     );
 }

@@ -27485,14 +27485,14 @@ const Header = ()=>{
                 onClick: ()=>{
                     setIsLoggedIn(false);
                 },
-                className: "bg-white text-black rounded-l-full ml-2 p-2 underline hover:bg-gray-500",
+                className: "bg-green-500 text-white rounded-l-full ml-2 p-2 underline hover:bg-gray-500",
                 children: "Login"
             }, void 0, false, {
                 fileName: "src/component/Header.js",
                 lineNumber: 47,
                 columnNumber: 27
             }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                className: "bg-green-500 text-white rounded-l-full ml-2 p-2 underline",
+                className: "bg-white text-black rounded-l-full ml-2 p-2 underline",
                 onClick: ()=>{
                     setIsLoggedIn(true);
                 },
@@ -27500,7 +27500,7 @@ const Header = ()=>{
             }, void 0, false, {
                 fileName: "src/component/Header.js",
                 lineNumber: 49,
-                columnNumber: 109
+                columnNumber: 113
             }, undefined)
         ]
     }, void 0, true, {
@@ -40789,9 +40789,10 @@ const ResturantMenu = ()=>{
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: Resturant ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex",
+            className: "flex hover:",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: " px-4 py-4",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                             className: "font-bold m-2",
@@ -40808,7 +40809,7 @@ const ResturantMenu = ()=>{
                             className: "font-bold m-2",
                             children: [
                                 "Name - ",
-                                Resturant?.data?.cards[0]?.card?.card?.info?.name
+                                Resturant?.data?.cards[2]?.card?.card?.info?.name
                             ]
                         }, void 0, true, {
                             fileName: "src/component/ResturantMenu.js",
@@ -40819,7 +40820,7 @@ const ResturantMenu = ()=>{
                             className: "font-bold m-2",
                             children: [
                                 "Id - ",
-                                Resturant?.data?.cards[0]?.card?.card?.info?.id
+                                Resturant?.data?.cards[2]?.card?.card?.info?.id
                             ]
                         }, void 0, true, {
                             fileName: "src/component/ResturantMenu.js",
@@ -40827,8 +40828,8 @@ const ResturantMenu = ()=>{
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "m-2 border-2 border-black",
-                            src: (0, _constants.img_cdn_url) + Resturant?.data?.cards[0]?.card?.card?.info?.cloudinaryImageId
+                            className: "m-2 border-2 w-96 h-96 border-black",
+                            src: (0, _constants.img_cdn_url) + Resturant?.data?.cards[2]?.card?.card?.info?.cloudinaryImageId
                         }, void 0, false, {
                             fileName: "src/component/ResturantMenu.js",
                             lineNumber: 37,
@@ -40838,7 +40839,7 @@ const ResturantMenu = ()=>{
                             className: "m-2",
                             children: [
                                 "Location - ",
-                                Resturant?.data?.cards[0]?.card?.card?.info?.city
+                                Resturant?.data?.cards[2]?.card?.card?.info?.city
                             ]
                         }, void 0, true, {
                             fileName: "src/component/ResturantMenu.js",
@@ -40849,7 +40850,7 @@ const ResturantMenu = ()=>{
                             className: "m-2",
                             children: [
                                 " Area - ",
-                                Resturant?.data?.cards[0]?.card?.card?.info?.areaName
+                                Resturant?.data?.cards[2]?.card?.card?.info?.areaName
                             ]
                         }, void 0, true, {
                             fileName: "src/component/ResturantMenu.js",
@@ -40860,7 +40861,7 @@ const ResturantMenu = ()=>{
                             className: "m-2",
                             children: [
                                 " Rating - ",
-                                Resturant?.data?.cards[0]?.card?.card?.info?.avgRating,
+                                Resturant?.data?.cards[2]?.card?.card?.info?.avgRating,
                                 " star"
                             ]
                         }, void 0, true, {
@@ -40872,7 +40873,7 @@ const ResturantMenu = ()=>{
                             className: "m-2",
                             children: [
                                 "Rupees - ",
-                                Resturant?.data?.cards[0]?.card?.card?.info?.costForTwo,
+                                Resturant?.data?.cards[2]?.card?.card?.info?.costForTwo,
                                 " Rs"
                             ]
                         }, void 0, true, {
@@ -40887,7 +40888,7 @@ const ResturantMenu = ()=>{
                     columnNumber: 11
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "p-20",
+                    className: "px-32 py-4",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                             className: "font-bold underline text-2xl",
@@ -40898,7 +40899,7 @@ const ResturantMenu = ()=>{
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                            children: Resturant?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards?.map((item)=>{
+                            children: Resturant?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card?.card?.itemCards?.slice(0, 18).map((item)=>{
                                 console.log(item);
                                 console.log(item?.card?.info?.name);
                                 return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
