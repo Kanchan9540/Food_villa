@@ -609,7 +609,7 @@ var _react = require("react");
 var _s = $RefreshSig$();
 const Section = ({ title, description, isVisible, setIsVisible })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "border border-black p-2 m-2",
+        className: "border border-black p-2 m-2 bg-black text-white rounded-lg",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 className: "font-bold text-xl",

@@ -2,7 +2,7 @@ import { useState } from "react"
 
 const Section = ({title, description, isVisible, setIsVisible}) => {
     return (
-        <div className="border border-black p-2 m-2">
+        <div className="border border-black p-2 m-2 bg-black text-white rounded-lg">
             <h3 className="font-bold text-xl">{title}</h3>
             
             {/* //condition rendering */}

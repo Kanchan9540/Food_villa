@@ -61,7 +61,7 @@ constructor(props){
         return(
             <div>
                 <h1>Profile class component</h1>
-                <img src={this.state.userInfo.avatar_url} className="w-20 h-20 m-1 border-2 border-black"/>
+                <div><img src={this.state.userInfo.avatar_url} className="w-20 m-1 border-2 border-black mx-auto"/></div>
                 <h2>Name: {this.state.userInfo.name}</h2>
                 <h2>Location: {this.state.userInfo.location}</h2>
                 <h2>E-mail: {this.state.userInfo.email}</h2>

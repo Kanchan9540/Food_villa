@@ -36,10 +36,12 @@ class About extends Component{
 
         return(
 
-            <div>
-                <h1 className="font-bold text-3xl underline text-center">About us page</h1>
+            <div className="text-center">
+                <h1 className="font-bold text-3xl underline text-center p-6">About us page</h1>
                 {/*Here we use a useContext as a component*/}
                 {/* this takes a jsx and its take a function and this function  have a value of whatever the value the context hold*/}
+                
+                <div className="border border-black h-90 w-90 bg-black text-white p-6 items-center">
                 <userContext.Consumer>  
                     {({user}) => <h4 className="font-bold text-md ">{user.name} - {user.email}</h4> }
                 </userContext.Consumer>
@@ -50,6 +52,7 @@ class About extends Component{
                 {/* <ProfileFunctionalComponent/> */}
                  <Profile name = {"First-child"}/>
                 {/* <Profile name = {"Second-child"}/> */}
+                </div>
             </div>
         )
     }

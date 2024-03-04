@@ -11,6 +11,7 @@ import About from "./component/About.js";
 import Error from "./component/Error.js";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Contact from "./component/Contact.js";
+//import ContactDetails from "./component/ContactDetails.js";
 import ResturantMenu from "./component/ResturantMenu.js";
 import Profile from "./component/Profile.js";
 import Shimmer from "./component/Shimmer.js";

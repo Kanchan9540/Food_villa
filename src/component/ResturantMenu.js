@@ -34,19 +34,19 @@ const ResturantMenu = () => {
         <div className="flex" >
           <div className=" px-4 py-4">
           <h1 className="font-bold m-2">Resturant id: {resId}</h1>
-          <h2 className="font-bold m-2">Name - {Resturant?.data?.cards[2]?.card?.card?.info?.name}</h2>
-          <h2 className="font-bold m-2">Id - {Resturant?.data?.cards[2]?.card?.card?.info?.id}</h2>
-          <img className="m-2 border-2 w-96 h-96 border-black" src={img_cdn_url+ Resturant?.data?.cards[2]?.card?.card?.info?.cloudinaryImageId}/>
-          <h3 className="m-2">Location - {Resturant?.data?.cards[2]?.card?.card?.info?.city}</h3>
-          <h3 className="m-2"> Area - {Resturant?.data?.cards[2]?.card?.card?.info?.areaName}</h3>
-          <h3 className="m-2"> Rating - {Resturant?.data?.cards[2]?.card?.card?.info?.avgRating} star</h3>
-          <h3 className="m-2">Rupees - {Resturant?.data?.cards[2]?.card?.card?.info?.costForTwo} Rs</h3>
+          <h2 className="font-bold m-2">Name - {Resturant?.data?.cards[0]?.card?.card?.info?.name}</h2>
+          <h2 className="font-bold m-2">Id - {Resturant?.data?.cards[0]?.card?.card?.info?.id}</h2>
+          <img className="m-2 border-2 w-96 h-96 border-black" src={img_cdn_url+ Resturant?.data?.cards[0]?.card?.card?.info?.cloudinaryImageId}/>
+          <h3 className="m-2">Location - {Resturant?.data?.cards[0]?.card?.card?.info?.city}</h3>
+          <h3 className="m-2"> Area - {Resturant?.data?.cards[0]?.card?.card?.info?.areaName}</h3>
+          <h3 className="m-2"> Rating - {Resturant?.data?.cards[0]?.card?.card?.info?.avgRating} star</h3>
+          <h3 className="m-2">Rupees - {Resturant?.data?.cards[0]?.card?.card?.info?.costForTwo} Rs</h3>
           </div>
 
           <div className="px-32 py-4">
             <h1 className="font-bold underline text-2xl">Menu</h1>
-            <ul>
-              {Resturant?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card
+            <ul className="font-semibold">
+              {Resturant?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card
                 ?.card?.itemCards?.slice(0, 18).map((item) => {
                 console.log(item);
                 console.log(item?.card?.info?.name);
